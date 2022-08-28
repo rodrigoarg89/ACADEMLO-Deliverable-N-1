@@ -1,0 +1,49 @@
+.App{
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.card {
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+  background-color: white;
+  margin: 100px auto;
+  padding: 30px;
+  max-width: 500px;
+  font-size: 12px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -100%);;
+
+}
+
+.title {
+  display: flex;
+  gap: 10px;
+}
+
+.fa-quote-left {
+  font-size: 40px;
+  text-rendering: auto;
+      
+}
+
+button {
+  border-radius: 50%;
+  border: none;
+  padding: 8px;
+  width: 52px;
+  font-size: 30px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, .2);
+  margin-right: 20px;
+}
+
+.right {
+  text-align: right;
+}
+
+@media only screen and (max-width: 1600px) {
+  .card {
+    font-size: 8px;
+  }
+}
