@@ -40,8 +40,6 @@ function App() {
 
 
   document.body.style = ` background: ${colors[randomColor]}`;
-  // document.h2.style =`color: ${colors[randomColor]}`
-  // document.body.style=${color: {colors[randomColor]}};
 
 
 
@@ -61,5 +59,3 @@ function App() {
 }
 
 export default App;
-
-// document.body.style =`{ color: ${colors[randomColor]}` ,` background: ${colors[randomColor]}}`;
